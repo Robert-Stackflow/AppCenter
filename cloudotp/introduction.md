@@ -1,5 +1,5 @@
 ---
-title: 主题简介
+title: CloudOTP
 ---
 <p align="center" style="display: flex;flex-wrap: wrap;justify-content: center;align-items: center;">
   <a title="Hexo Version" style="margin:4px" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.0-orange?style=flat"></a>
