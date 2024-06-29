@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 const ogDescription = "我的开源项目中心";
-const ogImage = "https://picbed.cloudchewie.com/img/favicon.ico";
+const ogImage = "https://picbed.cloudchewie.com/blog/index/favicon-transparent.png!mini";
 const ogTitle = "App Center";
 const ogUrl = "https://apps.cloudchewie.com";
 
@@ -17,7 +17,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "https://picbed.cloudchewie.com/img/favicon.ico",
+        href: "https://picbed.cloudchewie.com/blog/index/favicon-transparent.png!mini",
       },
     ],
     ["meta", { property: "og:type", content: "website" }],
@@ -36,8 +36,22 @@ export default defineConfig({
       {
         text: "项目",
         items: [
-          { text: "CloudOTP", link: "/cloudotp/introduction" },
-          { text: "HUST-Courses-Archive", link: "/hust-cources-archive/introduction" },
+          {
+            text: "Loftify",
+            link: "https://github.com/Robert-Stackflow/Loftify",
+          },
+          {
+            text: "Moment",
+            link: "https://github.com/Robert-Stackflow/Moment",
+          },
+          {
+            text: "CloudOTP",
+            link: "https://github.com/Robert-Stackflow/CloudOTP",
+          },
+          {
+            text: "HUST-Courses-Archive",
+            link: "https://github.com/Robert-Stackflow/HUST-Courses-Archive",
+          },
         ],
       },
       {
@@ -45,47 +59,67 @@ export default defineConfig({
         items: [
           { text: "邮箱", link: "mailto:2014027378@qq.com" },
           { text: "Bilibili", link: "https://space.bilibili.com/651449217" },
-          { text: "Github", link: "https://github.com/Robert-Stackflow" } ,
+          { text: "Github", link: "https://github.com/Robert-Stackflow" },
         ],
       },
     ],
 
-    sidebar: [
-      {
-        text: "CloudOTP",
-        link: "/cloudotp/introduction",
-      },
-      {
-        text: "快速上手",
-        items: [
-          {
-            text: "页面配置 📦",
-            collapsed: false,
-            items: [
-              { text: "front-matter的基本认识", link: "/cloudotp/front-matter" },
-              { text: "标签页配置", link: "/cloudotp/tags" },
-              { text: "分类页配置", link: "/cloudotp/classify" },
-              { text: "404页面配置", link: "/cloudotp/404" },
-            ],
-          },
-          {
-            text: "进阶配置 🚀",
-            collapsed: false,
-            items: [
-              { text: "友情链接配置", link: "/cloudotp/links" },
-              { text: "留言板页面配置", link: "/cloudotp/message" },
-              { text: "我的装备页面配置", link: "/cloudotp/equipment" },
-              { text: "追番页面配置", link: "/cloudotp/bilibili" },
-              { text: "关于页面配置", link: "/cloudotp/about" },
-              { text: "音乐馆页配置", link: "/cloudotp/music" },
-              { text: "朋友圈页面配置", link: "/cloudotp/fcircle" },
-              { text: "相册页面配置", link: "/cloudotp/album" },
-              { text: "首页即刻说说页面配置", link: "/cloudotp/essay" },
-            ],
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      '/cloudotp/':[
+        {
+          text: "简介",
+          link: "/cloudotp/introduction",
+        },
+        {
+          text: "基本介绍",
+          collapsed: false,
+          items: [
+            { text: "关于OTP", link: "/cloudotp/about-otp" },
+            { text: "添加令牌", link: "/cloudotp/add-token" },
+            { text: "导入和导出", link: "/cloudotp/export-import" },
+          ],
+        },
+        {
+          text: "进阶配置",
+          collapsed: false,
+          items: [
+            { text: "密码锁", link: "/cloudotp/lock" },
+            { text: "Dropbox", link: "/cloudotp/dropbox" },
+          ],
+        },
+      ],
+      '/loftify/':[
+        { text: "简介",link: "/loftify/introduction" },
+        { text: "功能介绍", link: "/loftify/features" },
+        { text: "外观设置", link: "/loftify/appearance-setting" },
+        { text: "图片设置", link: "/loftify/image-setting" },
+        { text: "LOFTER设置", link: "/loftify/lofter-setting" },
+        { text: "实验室", link: "/loftify/experiment-setting" },
+      ],
+      '/moment/':[
+        { text: "简介",link: "/moment/introduction" },
+        { text: "展示页面",link: "/moment/preview" },
+        {
+          text: "内容管理",
+          collapsed: false,
+          items: [
+            { text: "图片列表", link: "/moment/image-list" },
+            { text: "分类列表", link: "/moment/category-list" },
+          ],
+        },
+        {
+          text: "系统管理",
+          collapsed: false,
+          items: [
+            { text: "通用设置", link: "/moment/general-setting" },
+            { text: "网站设置", link: "/moment/meta-setting" },
+            { text: "内容设置", link: "/moment/blog-setting" },
+            { text: "存储设置", link: "/moment/storage-setting" },
+            { text: "菜单管理", link: "/moment/menu-manage" },
+          ],
+        },
+      ],
+    },
 
     // algolia: {
     //   appId: "CITURDDECN",
@@ -143,23 +177,11 @@ export default defineConfig({
       message: `Released under the MIT License.`,
       copyright: "Copyright © 2024 Cloudchewie",
     },
-
-    editLink: {
-      pattern: "https://github.com/Robert-Stackflow/AppCenter/edit/main/:path",
-      text: "在Github上编辑此页面",
-    },
-    lastUpdated: {
-      text: "更新于",
-      formatOptions: {
-        dateStyle: "full",
-        timeStyle: "medium",
-      },
-    },
     lightModeSwitchTitle: "切换至浅色模式",
     darkModeSwitchTitle: "切换至深色模式",
     search: {
-      provider: 'local'
-    }
+      provider: "local",
+    },
   },
   lastUpdated: true,
   markdown: {

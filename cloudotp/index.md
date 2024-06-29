@@ -16,7 +16,7 @@ hero:
       text: Github
       link: https://github.com/Robert-Stackflow/CloudOTP
   image:
-    src: https://picbed.cloudchewie.com/apps/cloudotp-icon.webp
+    src: https://picbed.cloudchewie.com/apps/cloudotp-icon.png
     alt: CloudOTP
 
 features:

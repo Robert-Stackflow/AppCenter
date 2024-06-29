@@ -135,7 +135,8 @@ withDefaults(defineProps<Props>(), {
   flex-shrink: 0;
   margin: 0 auto;
   border-radius: 50%;
-  box-shadow: var(--vp-shadow-3);
+  padding: 12px;
+  border: 1px solid rgb(from var(--vp-c-border) r g b / 20%);
 }
 
 .avatar-img {
