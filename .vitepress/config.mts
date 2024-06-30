@@ -33,6 +33,7 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "https://www.cloudchewie.com/" },
       { text: "博客", link: "https://blog.cloudchewie.com/" },
+      { text: "Github", link: "https://github.com/Robert-Stackflow/AppCenter/" },
       {
         text: "项目",
         items: [
@@ -47,10 +48,6 @@ export default defineConfig({
           {
             text: "CloudOTP",
             link: "https://github.com/Robert-Stackflow/CloudOTP",
-          },
-          {
-            text: "HUST-Courses-Archive",
-            link: "https://github.com/Robert-Stackflow/HUST-Courses-Archive",
           },
         ],
       },
