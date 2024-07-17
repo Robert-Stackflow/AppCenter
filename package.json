@@ -9,7 +9,7 @@
     "vue": "^3.4.31"
   },
   "devDependencies": {
-    "@types/node": "^20.6.3",
+    "@types/node": "^20.14.11",
     "vitepress-plugin-tabs": "^0.5.0"
   }
 }
