@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "vitepress": "1.0.0-rc.39",
-    "vue": "^3.4.31"
+    "vue": "^3.4.32"
   },
   "devDependencies": {
     "@types/node": "^20.6.3",
