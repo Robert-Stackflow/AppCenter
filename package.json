@@ -5,13 +5,8 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "vitepress": "1.3.1",
     "vue": "^3.4.31"
-=======
-    "vitepress": "1.0.0-rc.39",
-    "vue": "^3.4.33"
->>>>>>> 0bd606d1d255d3609de83f2ced1fd64191d2ac54
   },
   "devDependencies": {
     "@types/node": "^20.14.11",
