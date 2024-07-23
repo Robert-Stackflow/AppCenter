@@ -94,3 +94,15 @@
   height: 160px;
   border-radius: 20px;
 }
+
+.VPButton{
+  text-decoration: none !important;
+}
+
+.HomePageSection .title-text{
+  border: none !important;
+}
+
+.container[data-v-86346a6a]{
+  max-width: unset;
+}

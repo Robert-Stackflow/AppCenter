@@ -2,7 +2,8 @@ import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 const ogDescription = "我的开源项目中心";
-const ogImage = "https://picbed.cloudchewie.com/blog/index/favicon-transparent.png!mini";
+const ogImage =
+  "https://picbed.cloudchewie.com/blog/index/favicon-transparent.png!mini";
 const ogTitle = "App Center";
 const ogUrl = "https://apps.cloudchewie.com";
 
@@ -33,7 +34,6 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "https://www.cloudchewie.com/" },
       { text: "博客", link: "https://blog.cloudchewie.com/" },
-      { text: "Github", link: "https://github.com/Robert-Stackflow/AppCenter/" },
       {
         text: "项目",
         items: [
@@ -61,8 +61,12 @@ export default defineConfig({
       },
     ],
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Robert-Stackflow/AppCenter/' },
+    ],
+
     sidebar: {
-      '/cloudotp/':[
+      "/cloudotp/": [
         {
           text: "简介",
           link: "/cloudotp/introduction",
@@ -85,17 +89,16 @@ export default defineConfig({
           ],
         },
       ],
-      '/loftify/':[
-        { text: "简介",link: "/loftify/introduction" },
-        { text: "功能介绍", link: "/loftify/features" },
+      "/loftify/": [
+        { text: "简介", link: "/loftify/introduction" },
         { text: "外观设置", link: "/loftify/appearance-setting" },
         { text: "图片设置", link: "/loftify/image-setting" },
         { text: "LOFTER设置", link: "/loftify/lofter-setting" },
         { text: "实验室", link: "/loftify/experiment-setting" },
       ],
-      '/moment/':[
-        { text: "简介",link: "/moment/introduction" },
-        { text: "展示页面",link: "/moment/preview" },
+      "/moment/": [
+        { text: "简介", link: "/moment/introduction" },
+        { text: "展示页面", link: "/moment/preview" },
         {
           text: "内容管理",
           collapsed: false,
@@ -183,6 +186,7 @@ export default defineConfig({
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
+    toc: { level: [1, 2, 3, 4, 5, 6, 7] },
     config(md) {
       md.use(tabsMarkdownPlugin);
     },

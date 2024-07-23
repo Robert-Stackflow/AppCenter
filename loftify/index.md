@@ -7,7 +7,7 @@ titleTemplate: App Center
 hero:
   name: "Loftify"
   text: "简洁美观的\nLOFTER第三方APP"
-  tagline: 本软件基于Flutter开发，目前仅支持Android，未来将逐步实现跨平台
+  tagline: 本软件基于Flutter开发，目前仅支持Android和Windows，未来将逐步实现跨平台
   actions:
     - theme: brand
       text: 了解详情
