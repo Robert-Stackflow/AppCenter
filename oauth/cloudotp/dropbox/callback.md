@@ -19,7 +19,7 @@ layout: page
         and
         <strong>CloudOTP</strong>
         are good to go!</p>
-        <img class="auth-logo ease-in-shared" src="https://picbed.cloudchewie.com/apps/cloudotp/dropbox.png">
+        <img class="auth-logo ease-in-shared" :src="'https://picbed.cloudchewie.com/apps/cloudotp/'+app+'.png'">
         <img class="auth-logo ease-in-shared" src="https://picbed.cloudchewie.com/apps/cloudotp/logo-transparent.svg">
     </div>
     <div style="height:200px" />
@@ -93,25 +93,25 @@ template{
   margin-right: auto;
   padding: 0 20px;
 }
-.VPLocalNav.fixed[data-v-da48a524]{
+.VPLocalNav{
   display: none !important;
 }
 @media(min-width: 640px) {
   h1 {
-    font-size: 4.242rem;
-    line-height: 5.1rem;
+    font-size: 4.242rem !important;
+    line-height: 5.1rem !important;
   }
 }
 h1 {
-  font-size: 2.828rem;
-  line-height: 3.4rem;
-  margin-top: 0;
+  font-size: 2.828rem !important;
+  line-height: 3.4rem !important;
+  margin-top: 0 !important;
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.7rem;
-    margin-top: 1.7rem;
-    margin-bottom: 0;
+    line-height: 1.7rem !important;
+    margin-top: 1.7rem !important;
+    margin-bottom: 0 !important;
 }
 .large {
     font-size: 1.414rem;
