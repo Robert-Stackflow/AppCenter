@@ -50,7 +50,7 @@ switch(app.toLowerCase()) {
     appName = 'Google Drive';
     break;
 }
-var protocol = `cloudotp://auth/${appName}/callback?code=${code}${state ? `&state=${state}` : ''}`;
+var protocol = `cloudotp://auth/${app}/callback?code=${code}${state ? `&state=${state}` : ''}`;
 window.location.href = protocol;
 function getQueryVariable(variable)
 {
