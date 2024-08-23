@@ -12,6 +12,7 @@ export default defineConfig({
   title: "App Center",
   description: "我的开源项目中心",
   lang: "zh",
+  cleanUrls: true,
   head: [
     [
       "link",

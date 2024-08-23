@@ -10,7 +10,7 @@ layout: page
 
 <template>
 <div class="oauth-container">
-  <div class="message">
+  <div class="oauth-message">
     <h1>Success!</h1>
     <p>Congratulations, your connection was successful!</p>
     <div class="ease-in-shared" id="auth-container">
@@ -64,7 +64,7 @@ function getQueryVariable(variable)
 }
 </script>
 <style>
-  body {
+body:has(.oauth-page) {
     text-align: center;
     background-color: #141422;
     color: #d0d0d2;
@@ -72,69 +72,69 @@ function getQueryVariable(variable)
     font-family: 'Open Sans', sans-serif;
     font-size: 106.25%;
 }
-h1, h3 {
+.oauth-page h1,.oauth-page h3 {
     color: #11b566;
     font-family: 'ITCAvantGardeStdBk', sans-serif;
     font-weight: 700;
     margin-bottom: 0;
 }
-.oauth-container {
+.oauth-page .oauth-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: calc(100vh - 50px);
 }
-template{
+.oauth-page template{
   display: block !important;
 }
-.oauth-page .message{
+.oauth-page .oauth-message{
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
 }
-.VPLocalNav{
+.oauth-page .VPLocalNav{
   display: none !important;
 }
 @media(min-width: 640px) {
-  h1 {
+  .oauth-page h1 {
     font-size: 4.242rem !important;
     line-height: 5.1rem !important;
   }
 }
-h1 {
+.oauth-page h1 {
   font-size: 2.828rem !important;
   line-height: 3.4rem !important;
   margin-top: 0 !important;
 }
-p {
+.oauth-page p {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7rem !important;
     margin-top: 1.7rem !important;
     margin-bottom: 0 !important;
 }
-.large {
+.oauth-page .large {
     font-size: 1.414rem;
     font-weight: 400;
 }
-.ease-in-shared {
+.oauth-page .ease-in-shared {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity = 0);
 }
-#auth-container {
+.oauth-page #auth-container {
     -webkit-animation: 1s opacity-basic .5s ease-in forwards;
     -moz-animation: 1s opacity-basic .5s ease-in forwards;
     -o-animation: 1s opacity-basic .5s ease-in forwards;
     -ms-animation: 1s opacity-basic .5s ease-in forwards;
     animation: 1s opacity-basic .5s ease-in forwards;
 }
-.auth-logo {
+.oauth-page .auth-logo {
     display: inline-block;
     height: 5.1rem;
     margin: 1.7rem 1.7rem 0;
 }
-.auth-logo {
+.oauth-page .auth-logo {
     -webkit-animation: 1s opacity-basic 1.5s ease-in forwards;
     -moz-animation: 1s opacity-basic 1.5s ease-in forwards;
     -o-animation: 1s opacity-basic 1.5s ease-in forwards;
