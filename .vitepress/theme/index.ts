@@ -9,9 +9,6 @@ export default {
     return h(Theme.Layout, null, {
     });
   },
-  enhanceApp({ app, router, siteData }) {
-    enhanceAppWithTabs(app);
-  },
 };
 
 export interface Project {
