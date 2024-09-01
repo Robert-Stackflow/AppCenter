@@ -136,6 +136,7 @@ export default defineConfig({
                   text: "数据库加密",
                   link: "/zh_CN/cloudotp/database-encrypt",
                 },
+                { text: "SQLCipher库丢失", link: "/zh_CN/cloudotp/sqlcipher" },
               ],
             },
             {
@@ -270,7 +271,14 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: "Gesture Lock", link: "/cloudotp/gesture-lock" },
-                { text: "Database Encrypt", link: "/cloudotp/database-encrypt" },
+                {
+                  text: "Database Encrypt",
+                  link: "/cloudotp/database-encrypt",
+                },
+                {
+                  text: "SQLCipher library is missing",
+                  link: "/cloudotp/sqlcipher",
+                },
               ],
             },
             {

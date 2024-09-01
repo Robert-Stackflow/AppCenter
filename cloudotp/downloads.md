@@ -3,7 +3,25 @@ title: Downloads
 ---
 # Downloads
 
-## Latest version V2.3.1
+## Latest version V2.3.2
+
+- Feature: Added built-in fonts such as MiSans and HarmonyOS Sans, and supports custom fonts
+- Fix: Fixed the problem of missing sqlcipher library
+- Fix: Fixed the issue of incorrect Toast of the pinned token
+- Fix: Fixed the issue where drag and drop sorting tokens are abnormal when there is a pinned token.
+- Fix: Fixed the problem of invalid QR code recognition in screenshots on desktop
+- Improve: Improved the page layout performance on desktop and tablet devices, and adjust some page UIs
+
+| Platform | File name | Notes | Download link |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.3.2.exe | **Installation version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.exe) |
+| Windows | CloudOTP-2.3.2.zip | **Portable version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.zip) |
+| Android | CloudOTP-2.3.2.apk | Universal for all platforms, suitable for Android 5.0 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.apk ) |
+| Android | CloudOTP-2.3.2-arm64-v8a.apk | Suitable for 64-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-arm64-v8a.apk) |
+| Android | CloudOTP-2.3.2-armeabi-v7a.apk | Suitable for 32-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-armeabi-v7a.apk) |
+| Android | CloudOTP-2.3.2-x86_64.apk | Suitable for 64-bit x86 architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-x86_64.apk) |
+
+## V2.3.1
 
 - Feature: Added "Focus" layout
 - Feature: The mobile terminal supports frosted glass effect

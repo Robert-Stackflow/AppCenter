@@ -2,7 +2,26 @@
 title: 下载
 ---
 # 下载
-## 最新版本 V2.3.1
+
+## 最新版本 V2.3.2
+
+- 功能：添加了MiSans、HarmonyOS Sans等内置字体，并支持自定义字体
+- 修复：修复了sqlcipher库缺失的问题
+- 修复：修复了置顶令牌Toast错误的问题
+- 修复：修复了当存在置顶令牌时，拖拽排序令牌异常的问题
+- 修复：修复了桌面端截图识别二维码失效的问题
+- 优化：优化桌面端和平板设备的页面布局表现效果，调整部分页面UI
+
+| 平台 | 文件名称 | 备注 | 下载链接 |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.3.2.exe | **安装版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.exe) |
+| Windows | CloudOTP-2.3.2.zip | **便携版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.zip) |
+| Android | CloudOTP-2.3.2.apk | 各平台通用，适用于Android 5.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2.apk) |
+| Android | CloudOTP-2.3.2-arm64-v8a.apk | 适用于64位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-arm64-v8a.apk) |
+| Android | CloudOTP-2.3.2-armeabi-v7a.apk | 适用于32位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-armeabi-v7a.apk) |
+| Android | CloudOTP-2.3.2-x86_64.apk | 适用于64位x86架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.3.2/CloudOTP-2.3.2-x86_64.apk) |
+
+## V2.3.1
 
 - 功能：新增「聚焦」布局
 - 功能：移动端支持毛玻璃效果
