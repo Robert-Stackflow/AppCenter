@@ -3,7 +3,23 @@ title: 下载
 ---
 # 下载
 
-## 最新版本 V2.3.2
+## 最新版本 V2.4.0
+
+- 功能：支持从Aegis、2FAS、FreeOTP+等9种验证器APP中导入数据
+- 功能：列表、聚焦两种布局下支持左右滑动操作
+- 功能：支持启动应用时自动聚焦搜索
+- 优化：移除平铺布局，优化进度条的表现效果
+
+| 平台 | 文件名称 | 备注 | 下载链接 |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.0.exe | **安装版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.exe) |
+| Windows | CloudOTP-2.4.0.zip | **便携版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.zip) |
+| Android | CloudOTP-2.4.0.apk | 各平台通用，适用于Android 5.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.apk) |
+| Android | CloudOTP-2.4.0-arm64-v8a.apk | 适用于64位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.0-armeabi-v7a.apk | 适用于32位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.0-x86_64.apk | 适用于64位x86架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-x86_64.apk) |
+
+## V2.3.2
 
 - 功能：添加了MiSans、HarmonyOS Sans等内置字体，并支持自定义字体
 - 修复：修复了sqlcipher库缺失的问题

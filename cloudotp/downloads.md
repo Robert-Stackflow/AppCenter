@@ -3,7 +3,23 @@ title: Downloads
 ---
 # Downloads
 
-## Latest version V2.3.2
+## Latest version V2.4.0
+
+- Feature: Supports importing data from 9 validator APPs including Aegis, 2FAS, FreeOTP+, etc.
+- Feature: supports left and right sliding operations in list and spotlight layouts
+- Feature: Supports automatic focus search when starting the application
+- Improve: Remove the tile layout and improve the performance of the progress bar
+
+| Platform | File name | Notes | Download link |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.0.exe | **Installation version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.exe) |
+| Windows | CloudOTP-2.4.0.zip | **Portable version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.zip) |
+| Android | CloudOTP-2.4.0.apk | Universal for all platforms, suitable for Android 5.0 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0.apk ) |
+| Android | CloudOTP-2.4.0-arm64-v8a.apk | Suitable for 64-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.0-armeabi-v7a.apk | Suitable for 32-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.0-x86_64.apk | Suitable for 64-bit x86 architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.0/CloudOTP-2.4.0-x86_64.apk) |
+
+## V2.3.2
 
 - Feature: Added built-in fonts such as MiSans and HarmonyOS Sans, and supports custom fonts
 - Fix: Fixed the problem of missing sqlcipher library
