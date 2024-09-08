@@ -3,7 +3,27 @@ title: Downloads
 ---
 # Downloads
 
-## Latest version V2.4.0
+## Latest version V2.4.2
+
+- Feature: Android supports using biometrics to unlock encrypted databases
+- Improve: Adjust the logic of database encryption and gesture password
+- Improve: Device platform and model will be identified in the file name during backup
+- Improve: Windows supports detecting whether the portable version is currently used, and optimizes the logic when updating and downloading the installation package.
+- Improve: When notification permission is not granted on the Android side, a pop-up window will prompt for installation after the installation package is downloaded.
+- Fix: Roll back the flutter version to solve problems such as freezing, crashing, and crashing encountered in different models.
+- Fix: Fixed the issue where Google Authenticator could not correctly import the QR code provided by CloudOTP
+- **Known issue**: Backup fails and the backup cannot be viewed after customizing the backup location for devices with Android version >10, which will be solved in subsequent versions.
+
+| Platform | File name | Remarks | Download link |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.2.exe | **Installation version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.exe) |
+| Windows | CloudOTP-2.4.2.zip | **Portable version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.zip) |
+| Android | CloudOTP-2.4.2.apk | Common to all platforms, suitable for **Android 6.0** and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.apk) |
+| Android | CloudOTP-2.4.2-arm64-v8a.apk | Suitable for 64-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.2-armeabi-v7a.apk | Suitable for 32-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.2-x86_64.apk | Suitable for 64-bit x86 architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-x86_64.apk) |
+
+## V2.4.0
 
 - Feature: Supports importing data from 9 validator APPs including Aegis, 2FAS, FreeOTP+, etc.
 - Feature: supports left and right sliding operations in list and spotlight layouts

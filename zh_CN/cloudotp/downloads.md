@@ -3,7 +3,27 @@ title: 下载
 ---
 # 下载
 
-## 最新版本 V2.4.0
+## 最新版本 V2.4.2
+
+- 功能：Android端支持使用生物识别解锁加密的数据库
+- 优化：调整数据库加密和手势密码的逻辑
+- 优化：备份时将在文件名中标识设备平台和型号
+- 优化：Windows支持检测当前是否使用便携版，优化更新下载安装包时的逻辑
+- 优化：Android端未授予通知权限时，安装包下载完成后将弹窗提示安装
+- 修复：回退flutter版本，解决在不同机型中遇到的卡死、闪退、崩溃等问题
+- 修复：修复Google Authenticator无法正确导入CloudOTP提供的二维码的问题
+- **已知问题**：Android版本>10的设备自定义备份位置后备份失败和无法查看备份，将在后续版本解决
+
+| 平台 | 文件名称 | 备注 | 下载链接 |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.2.exe | **安装版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.exe) |
+| Windows | CloudOTP-2.4.2.zip | **便携版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.zip) |
+| Android | CloudOTP-2.4.2.apk | 各平台通用，适用于**Android 6.0**及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2.apk) |
+| Android | CloudOTP-2.4.2-arm64-v8a.apk | 适用于64位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.2-armeabi-v7a.apk | 适用于32位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.2-x86_64.apk | 适用于64位x86架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.2/CloudOTP-2.4.2-x86_64.apk) |
+
+## V2.4.0
 
 - 功能：支持从Aegis、2FAS、FreeOTP+等9种验证器APP中导入数据
 - 功能：列表、聚焦两种布局下支持左右滑动操作
