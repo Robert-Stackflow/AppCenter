@@ -13,7 +13,7 @@ hero:
       text: 了解详情
       link: /moment/introduction
     - theme: alt
-      text: Github
+      text: GitHub
       link: https://github.com/Robert-Stackflow/Moment
   image:
     src: https://picbed.cloudchewie.com/icon/moment.png!mini

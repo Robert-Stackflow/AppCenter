@@ -7,7 +7,7 @@ title: Introduction
 CloudOTP is a two-factor authenticator based on Flutter, supports Android and Windows platforms, and supports cloud backup.
 
 <p align="center" style="display: flex;flex-wrap: wrap;justify-content: start;align-items: center;">
-  <a title="License" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/CloudOTP/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Robert-Stackflow/CloudOTP.svg?style=flat"></a>
+  <a title="License" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/CloudOTP/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Robert-Stackflow/CloudOTP.svg?style=flat"></a>
   <br>
   <a title="GitHub Release" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/CloudOTP/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Robert-Stackflow/CloudOTP?style=flat"></a>
   <a title="GitHub Commits" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/CloudOTP/commits/main"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/y/Robert-Stackflow/CloudOTP/main"></a>

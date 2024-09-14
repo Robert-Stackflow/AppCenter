@@ -13,7 +13,7 @@ hero:
       text: 了解详情
       link: /zh_CN/loftify/introduction
     - theme: alt
-      text: Github
+      text: GitHub
       link: https://github.com/Robert-Stackflow/Loftify
   image:
     src: https://picbed.cloudchewie.com/apps/loftify-icon.png

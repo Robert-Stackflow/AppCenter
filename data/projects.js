@@ -8,7 +8,7 @@ export const primary = [
       { theme: "brand", text: "Learn more", link: "/cloudotp" },
       {
         theme: "alt",
-        text: "Github",
+        text: "GitHub",
         link: "https://github.com/Robert-Stackflow/CloudOTP",
       },
     ],
@@ -22,7 +22,7 @@ export const primary = [
       { theme: "brand", text: "Learn more", link: "/loftify" },
       {
         theme: "alt",
-        text: "Github",
+        text: "GitHub",
         link: "https://github.com/Robert-Stackflow/Loftify",
       },
     ],
@@ -36,7 +36,7 @@ export const primary = [
       { theme: "brand", text: "Learn more", link: "/moment" },
       {
         theme: "alt",
-        text: "Github",
+        text: "GitHub",
         link: "https://github.com/Robert-Stackflow/Moment",
       },
     ],
@@ -52,7 +52,7 @@ export const unimportant = [
     actions: [
       {
         theme: "alt",
-        text: "Github",
+        text: "GitHub",
         link: "https://github.com/Robert-Stackflow/HUST-Courses-Archive",
       },
     ],

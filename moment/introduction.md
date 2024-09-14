@@ -2,7 +2,7 @@
 title: 简介
 ---
 <p align="center" style="display: flex;flex-wrap: wrap;justify-content: center;align-items: center;">
-  <a title="License" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/Moment/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Robert-Stackflow/Moment.svg?style=flat"></a>
+  <a title="License" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/Moment/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Robert-Stackflow/Moment.svg?style=flat"></a>
   <br>
   <a title="GitHub Release" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/Moment/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Robert-Stackflow/Moment?style=flat"></a>
   <a title="GitHub Commits" style="margin:4px" target="_blank" href="https://github.com/Robert-Stackflow/Moment/commits/main"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/y/Robert-Stackflow/Moment/master"></a>

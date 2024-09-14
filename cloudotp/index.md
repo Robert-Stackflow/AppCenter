@@ -7,7 +7,7 @@ titleTemplate: App Center
 hero:
   name: "CloudOTP"
   text: "An awesome\n2FA authenticator"
-  tagline: This software only supports Android and Windows
+  tagline: Support all platforms and cloud backup
   actions:
     - theme: brand
       text: Downloads
@@ -17,7 +17,7 @@ hero:
       link: /cloudotp/introduction
     - theme: alt
       icon: fa-github
-      text: Github
+      text: GitHub
       link: https://github.com/Robert-Stackflow/CloudOTP
   image:
     src: https://picbed.cloudchewie.com/apps/cloudotp/logo.png
@@ -25,23 +25,23 @@ hero:
 
 features:
   - icon: 🚀
-    title: beautiful
-    details: Support dark mode, switch theme color
+    title: Beautiful
+    details: support dark color mode, switch multiple themes, customize fonts
   - icon: 😃
-    title: ease of use
-    details: supports single and double column display tokens, built-in many application icons
+    title: Easy to use
+    details: Supports multiple layouts for displaying tokens, built-in 2000+ app icons;supports QR code scanning and desktop screenshot scanning.
   - icon: 🛡️
-    title: security
-    details: Support password lock, safe mode
+    title: Security
+    details: Support database encryption, gesture lock, auto lock and safe mode.
   - icon: ⌛️
-    title: synchronization
-    details: Supports multiple import and export methods, Dropbox cloud disk backup
-  - icon: 🌈
-    title: internationalization
-    details: "Supports two languages: Simplified Chinese and English"
+    title: Backup
+    details: Supports multiple import and export methods, Onedrive, Dropbox, WebDAV, S3 cloud storage backup.
   - icon: ⚙️
-    title: customized
-    details: Support token editing function
+    title: Migration
+    details: Support migrate data from Google Authenticator, Aegis Authenticator, 2FAS and so on.
+  - icon: 🌈
+    title: Internationalization
+    details: Supports Simplified Chinese and English.
   - icon: 📱
     title: Privacy Policy
     details: This software does not collect any user information
