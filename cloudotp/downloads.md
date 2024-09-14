@@ -3,7 +3,28 @@ title: Downloads
 ---
 # Downloads
 
-## Latest version V2.4.2
+## Latest version V2.4.4
+
+> ⚡⚡⚡Due to the logical change of the distribution file name, software download updates for version 2.4.2 and below may fail. Please jump to the browser to download.
+- Feature: Supports Linux, iOS systems, and some supports MacOS
+- Improve: Improve desktop tray menu
+- Fix: Fixed the issue where symbols cannot be entered in the password box
+- Warning: There are many non-adaptation problems in iOS and MacOS, please use with caution
+
+| Platform | File name | Notes | Download link |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.4-windows-x86_64.exe | **Installation version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-windows-x86_64.exe) |
+| Windows | CloudOTP-2.4.4-windows-x86_64.zip | **Portable version**, suitable for Windows 7 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-windows-x86_64.zip) |
+| Linux | CloudOTP-2.4.4-linux-amd64.deb | **Debian installation package**, suitable for Linux systems with AMD64 architecture | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-linux-amd64.deb) |
+| Linux | CloudOTP-2.4.4-linux-amd64.tar.gz | Linux system suitable for AMD64 architecture | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-linux-amd64.tar.gz) |
+| Android | CloudOTP-2.4.4-android-universal.apk | Common to all platforms, suitable for Android 6.0 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-android-universal.apk) |
+| Android | CloudOTP-2.4.4-android-arm64-v8a.apk | Suitable for 64-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-android-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.4-android-armeabi-v7a.apk | Suitable for 32-bit ARM architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-android-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.4-android-x86_64.apk | Suitable for 64-bit x86 architecture devices | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-android-x86_64.apk) |
+| iOS | CloudOTP-2.4.4-ios.ipa | For iOS 12.0 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-ios.ipa) |
+| MacOS | CloudOTP-2.4.4.dmg | Applicable to MacOS 10.15 and above | [Download](https://pkgs.cloudchewie.com/CloudOTP/2.4.4/CloudOTP-2.4.4-macos.dmg) |
+
+## V2.4.2
 
 - Feature: Android supports using biometrics to unlock encrypted databases
 - Improve: Adjust the logic of database encryption and gesture password
