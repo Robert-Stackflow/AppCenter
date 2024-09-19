@@ -3,7 +3,29 @@ title: 下载
 ---
 # 下载
 
-## 最新版本 V2.4.4
+## 最新版本 V2.4.5
+
+- 功能：支持繁体中文、日语
+- 优化：优化数据存储目录逻辑
+- 修复：修复下载安装包失败的问题
+- 修复：修复修改备份数目阈值失败的问题
+- 警告：iOS和MacOS存在诸多未适配的问题，请谨慎使用
+
+| 平台 | 文件名称 | 备注 | 下载链接 |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.5-windows-x86_64.exe | **安装版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-windows-x86_64.exe) |
+| Windows | CloudOTP-2.4.5-windows-x86_64.zip | **便携版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-windows-x86_64.zip) |
+| Linux | CloudOTP-2.4.5-linux-amd64.deb | **Debian安装包**，适用于AMD64架构的Linux系统 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-linux-amd64.deb) |
+| Linux | CloudOTP-2.4.5-linux-amd64.tar.gz | 适用于AMD64架构的Linux系统 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-linux-amd64.tar.gz) |
+| Android | CloudOTP-2.4.5-android-universal.apk | 各平台通用，适用于Android 6.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-android-universal.apk) |
+| Android | CloudOTP-2.4.5-android-arm64-v8a.apk | 适用于64位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-android-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.5-android-armeabi-v7a.apk | 适用于32位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-android-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.5-android-x86_64.apk | 适用于64位x86架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-android-x86_64.apk) |
+| iOS | CloudOTP-2.4.5-ios.ipa | 适用于iOS 12.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-ios.ipa) |
+| MacOS | CloudOTP-2.4.5.dmg | 适用于MacOS 10.15及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.5/CloudOTP-2.4.5-macos.dmg) |
+
+
+## V2.4.4
 
 > ⚡⚡⚡由于发行版文件名称逻辑变化，2.4.2版本及以下的软件下载更新可能会失败，请跳转到浏览器下载
 - 功能：支持Linux、iOS系统，部分支持MacOS
