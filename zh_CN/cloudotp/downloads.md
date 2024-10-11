@@ -3,7 +3,25 @@ title: 下载
 ---
 # 下载
 
-## 最新版本 V2.4.5
+## 最新版本 V2.4.6
+
+- 修复：修复WebDav或S3云存储的服务器地址无法填写IP地址的问题
+> 注意：在输入IP地址时，请注意带上`https://`或`http://`协议
+
+| 平台 | 文件名称 | 备注 | 下载链接 |
+| --- | --- | --- | --- |
+| Windows | CloudOTP-2.4.6-windows-x86_64.exe | **安装版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-windows-x86_64.exe) |
+| Windows | CloudOTP-2.4.6-windows-x86_64.zip | **便携版**，适用于Windows 7及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-windows-x86_64.zip) |
+| Linux | CloudOTP-2.4.6-linux-amd64.deb | **Debian安装包**，适用于AMD64架构的Linux系统 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-linux-amd64.deb) |
+| Linux | CloudOTP-2.4.6-linux-amd64.tar.gz | 适用于AMD64架构的Linux系统 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-linux-amd64.tar.gz) |
+| Android | CloudOTP-2.4.6-android-universal.apk | 各平台通用，适用于Android 6.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-android-universal.apk) |
+| Android | CloudOTP-2.4.6-android-arm64-v8a.apk | 适用于64位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-android-arm64-v8a.apk) |
+| Android | CloudOTP-2.4.6-android-armeabi-v7a.apk | 适用于32位ARM架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-android-armeabi-v7a.apk) |
+| Android | CloudOTP-2.4.6-android-x86_64.apk | 适用于64位x86架构的设备 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-android-x86_64.apk) |
+| iOS | CloudOTP-2.4.6-ios.ipa | 适用于iOS 12.0及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-ios.ipa) |
+| MacOS | CloudOTP-2.4.6.dmg | 适用于MacOS 10.15及以上版本 | [下载](https://pkgs.cloudchewie.com/CloudOTP/2.4.6/CloudOTP-2.4.6-macos.dmg) |
+
+## V2.4.5
 
 - 功能：支持繁体中文、日语
 - 优化：优化数据存储目录逻辑
