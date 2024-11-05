@@ -1,15 +1,14 @@
 {
-    "enableApp": true,
-    "disableReason": "",
+    "enableApp": false,
+    "disableReason": "Loftify不再提供浏览服务，感谢您的支持！",
     "switchs": {
         "enableEasterEggs": true,
-        "enableOverrideCloudControl": true,
-        "enableUpdateFromS3": true
+        "enableUpdateFromS3": false
     },
     "contacts": {
-        "showTelegramGroup": true,
+        "showTelegramGroup": false,
         "telegramGroupUrl": "https://t.me/Loftify",
-        "showQQGroup": true,
+        "showQQGroup": false,
         "qqGroupUrl": "https://qm.qq.com/q/2HJ8PC1XcQ",
         "feedbackEmail": "2014027378@qq.com",
         "feedbackSubject": "Loftify反馈",
@@ -22,16 +21,15 @@
         "issueUrl": "https://github.com/Robert-Stackflow/Loftify/issues"
     },
     "features": {
-        "showDress": true,
-        "showTagDress": true,
+        "showDress": false,
+        "showTagDress": false,
         "imageFeatures": {
-            "showCatutu": true,
-            "showDownloadButton": true,
-            "showDownloadAllButton": true,
-            "showCopyLinkButton": true,
-            "showImageQualitySettings": true,
-            "showBigImageSettings": true,
-            "showVideoDownloadButton": true
+            "showCatutu": false,
+            "showDownloadButton": false,
+            "showCopyLinkButton": false,
+            "showImageQualitySettings": false,
+            "showBigImageSettings": false,
+            "showVideoDownloadButton": false
         }
     }
 }
