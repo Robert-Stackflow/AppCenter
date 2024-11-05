@@ -1,0 +1,36 @@
+{
+    "enableApp": true,
+    "disableReason": "",
+    "switchs": {
+        "enableEasterEggs": true,
+        "enableOverrideCloudControl": true,
+        "enableUpdateFromS3": true
+    },
+    "contacts": {
+        "showTelegramGroup": true,
+        "telegramGroupUrl": "https://t.me/Loftify",
+        "showQQGroup": true,
+        "qqGroupUrl": "https://qm.qq.com/q/2HJ8PC1XcQ",
+        "email": "2014027378@qq.com",
+        "feedbackBody": "",
+        "officialWebsite": "https://apps.cloudchewie.com/loftify",
+        "shareText": "Loftify - 简洁的LOFTER第三方APP\nhttps://apps.cloudchewie.com/loftify",
+        "downloadPkgsUrl": "https://pkgs.cloudchewie.com/Loftify",
+        "repoUrl": "https://github.com/Robert-Stackflow/Loftify",
+        "releaseUrl": "https://github.com/Robert-Stackflow/Loftify/releases",
+        "issueUrl": "https://github.com/Robert-Stackflow/Loftify/issues"
+    },
+    "features": {
+        "showDress": true,
+        "showTagDress": true,
+        "imageFeatures": {
+            "showCatutu": true,
+            "showDownloadButton": true,
+            "showDownloadAllButton": true,
+            "showCopyLinkButton": true,
+            "showImageQualitySettings": true,
+            "showBigImageSettings": true,
+            "showVideoDownloadButton": true
+        }
+    }
+}
