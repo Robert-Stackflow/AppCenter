@@ -1,6 +1,7 @@
 {
     "enableApp": false,
-    "disableReason": "Loftify不再提供浏览服务，感谢您的支持！",
+    "disableReasonTitle": "Loftify已下线",
+    "disableReasonMessage": "Loftify不再提供浏览服务，感谢您的支持！",
     "switchs": {
         "enableEasterEggs": true,
         "enableUpdateFromS3": false
